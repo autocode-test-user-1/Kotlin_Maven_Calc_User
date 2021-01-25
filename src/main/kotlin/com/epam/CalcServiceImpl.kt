@@ -2,7 +2,7 @@ package com.epam
 
 class CalcServiceImpl : CalcService {
     override fun add(a: Int, b: Int) : Int {
-       return a + b
+       return a + b + 1
     }
 
     override fun multiply(a: Int, b: Int): Int {
@@ -14,7 +14,6 @@ class CalcServiceImpl : CalcService {
     }
 
     override fun divide(a: Int, b: Int): Int {
-        if (b == 0) return 0
         return a / b
     }
 }
