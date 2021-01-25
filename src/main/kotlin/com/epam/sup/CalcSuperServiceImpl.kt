@@ -6,6 +6,7 @@ class CalcSuperServiceImpl : CalcSuperService {
     }
 
     override fun multiplySuper(a: Int, b: Int, c: Int): Int {
-        return a * b * c
+        val d = a * b * c
+        return d
     }
 }
