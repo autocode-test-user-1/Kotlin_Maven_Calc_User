@@ -11,6 +11,7 @@ class CalcServiceImpl : CalcService {
     }
 
     override fun subtract(a: Int, b: Int): Int {
+        val y = 0
         return a - b
     }
 
